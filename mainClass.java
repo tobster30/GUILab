@@ -9,6 +9,11 @@ public class mainClass {
 		
 		myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
+		Panel panel1 = new Panel();
+		
+		myFrame.setContentPane(panel1);
+		
+		
 		//myFrame.pack();
 		
 		myFrame.setVisible(true);
